@@ -1,75 +1,64 @@
-# Hi, I’m Favour 👋
+# Hi, I'm Favour 👋
 
-I’m a Full-Stack Web Developer and Coding Instructor focused on building practical, real-world web applications.
+**Backend Engineer · Full Stack Developer · Technical Co-Founder**
 
-I specialize in backend development, APIs, and teaching developers how things actually work under the hood.
+I build production-grade APIs, distributed systems, and AI-native web applications. Co-founded [FGP Solutions](https://fgpsolutions.co) in 2026, where I serve as Lead Backend Developer and Technical Architect across multiple product lines.
+
+Primary stack is **Python/Django** — also proficient in **Node.js/Express** for full stack delivery. I integrate LLMs (Anthropic Claude, OpenAI) as core product features, not just tooling.
+
+---
+
+## 🚀 Live Products
+
+### [FGP Hiring Signal](https://fgpsolutions.co) — AI-Native Hiring Tool
+An AI-native hiring tool that extracts structured, cited hiring signals from job descriptions and candidate materials — with a human-in-the-loop review queue before any decision is acted on.
+
+- 6-step AI reasoning chain (signals → strengths → risks → counter-hypotheses → follow-up questions → synthesis)
+- Pydantic schema validation + auto-repair logic + immutable audit log
+- CI-enforced eval gates: ≥85% signal accuracy · ≥95% citation grounding rate · <2% schema violations
+- **Stack:** Django Ninja · Anthropic Claude API · Redis/RQ · PostgreSQL · HTMX · TailwindCSS
+
+### [LiveHomeTour](https://livehometour.com) — Real Estate Video Tour Platform
+A real estate platform enabling live agent-guided property video tours with agent-controlled playback, real-time client chat, and automated agent assignment by proximity.
+
+- Multi-role auth (CLIENT / AGENT / ADMIN) · tour booking & assignment engine · VideoAsset state machine
+- AI-powered property search with voice support (OpenAI + SimplyRETS/MLS data cache)
+- Real-time agent-to-client sessions via Cloudflare Stream + Daily.co
+- **Stack:** Node.js/Express · PostgreSQL (Prisma) · Socket.io · Cloudflare Stream · Cloudflare R2 · Daily.co · Next.js
 
 ---
 
 ## 🛠 Tech Stack
 
-### Frontend
-- HTML, CSS, JavaScript  
-- React, Next.js  
-- Tailwind CSS, Bootstrap  
+**Backend**
+Python · Django · Django REST Framework · Django Ninja · Node.js · Express.js · WebSockets (Django Channels · Socket.io)
 
-### Backend
-- Node.js, Express  
-- Python, Django, Django REST Framework  
+**AI & LLMs**
+Anthropic Claude API · OpenAI API · Prompt Engineering · Structured Output Validation · LLM Workflow Design
 
-### Databases
-- PostgreSQL, MySQL  
-- MongoDB, Mongoose  
+**Databases**
+PostgreSQL · MySQL · Redis · Prisma ORM
 
-### Tools & Platforms
-- Git & GitHub  
-- Postman  
-- Firebase  
-- Stripe  
-- REST APIs & JWT  
-- Docker (learning / basic usage)
+**Frontend**
+React.js · Next.js · HTMX · JavaScript (ES6+) · TailwindCSS · HTML5 · CSS3
 
----
-
-## 🚀 Projects (In Progress & Completed)
-
-- **Christian Social Platform (Vine)**  
-  A social media-style platform with authentication, posts, events, and API-driven architecture.  
-  _Tech:_ Django REST Framework, PostgreSQL, JWT  
-
-- **VinePartners Website**  
-  A donation and information platform with international payments.  
-  _Tech:_ Django, Stripe, Next.js  
-
-- **Booking & Appointment System**  
-  A web-based appointment booking solution for clients.  
-  _Tech:_ Node.js, Express, MongoDB  
+**Infrastructure & Tools**
+Docker · Celery · RQ · Render · Vercel · Cloudflare Stream · Cloudflare R2 · Git & GitHub · Postman
 
 ---
 
 ## 👨🏽‍🏫 Teaching & Mentorship
 
-I teach web development with a focus on:
-- Understanding fundamentals, not just frameworks  
-- Building real-world projects  
-- Writing clean, readable, maintainable code  
+I've trained **500+ students** in web development — HTML, CSS, JavaScript, Node.js, Django, and backend architecture fundamentals. My approach: understand the fundamentals, build real things, write code that lasts.
 
-I’ve trained **1,000+ students** in HTML, CSS, JavaScript, Node.js, and backend development.
+Previously mentored a developer cohort under the **Ekiti State Government Partnership (Managet)** — guiding trainees through complete project lifecycles from design to production deployment.
 
 ---
 
-## 📈 Currently Working On
+## 🤝 Connect
 
-- Improving backend architecture and API design
-- Building production-ready, open-source projects
-- Writing better documentation and cleaner code
+- 🌐 [fgpsolutions.co](https://fgpsolutions.co)
+- 💼 [linkedin.com/in/favour-ronald-enu](https://www.linkedin.com/in/favour-ronald-enu)
+- 📧 favourronenu@gmail.com
 
----
-
-## 🤝 Connect With Me
-
-- GitHub: https://github.com/techyfave
-- LinkedIn: www.linkedin.com/in/favour-ronald-enu
-- Email: favourronenu@gmail.com
-
-Open to collaboration, teaching opportunities, and backend-focused roles.
+Open to full-time remote backend engineering roles.
