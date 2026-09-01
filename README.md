@@ -8,6 +8,14 @@ Primary stack is **Python/Django** — also proficient in **Node.js/Express** fo
 
 ---
 
+## 🌱 Currently Building
+
+### [AgroLens AI](https://github.com/techyfave/AgroLens-AI) — AI-Powered Crop Intelligence
+
+Building an end-to-end platform that turns crop imagery into practical health insights. It brings together applied AI, product engineering, and production-ready delivery—more to come as development progresses.
+
+---
+
 ## 🚀 Selected Work
 
 ### [FGP Hiring Signal](https://fgpsolutions.co) — AI-Native Hiring Tool
