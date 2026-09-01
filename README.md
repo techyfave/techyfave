@@ -8,7 +8,7 @@ Primary stack is **Python/Django** — also proficient in **Node.js/Express** fo
 
 ---
 
-## 🚀 Live Products
+## 🚀 Selected Work
 
 ### [FGP Hiring Signal](https://fgpsolutions.co) — AI-Native Hiring Tool
 
@@ -19,11 +19,11 @@ An AI-native hiring tool that extracts structured, cited hiring signals from job
 - CI-enforced eval gates: ≥85% signal accuracy · ≥95% citation grounding rate · <2% schema violations
 - **Stack:** Django Ninja · Anthropic Claude API · Redis/RQ · PostgreSQL · HTMX · TailwindCSS
 
-### [LiveHomeTour](https://livehometour.com) — Real Estate Video Tour Platform
+### [LiveHomeTour API](https://livehometour-api.onrender.com/docs/) — Real Estate Video Tour Backend
 
 A real estate platform enabling live agent-guided property video tours with agent-controlled playback, real-time client chat, and automated agent assignment by proximity.
 
-**[Live product](https://livehometour.com) · [API reference](https://livehometour-api.onrender.com/docs/) · [Backend source](https://github.com/techyfave/livehometour-api)**
+**[Explore the API reference](https://livehometour-api.onrender.com/docs/) · [View backend source](https://github.com/techyfave/livehometour-api)**
 
 - Multi-role auth (CLIENT / AGENT / ADMIN) · tour booking & assignment engine · VideoAsset state machine
 - AI-powered property search with voice support (OpenAI + SimplyRETS/MLS data cache)
