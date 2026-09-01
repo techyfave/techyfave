@@ -11,6 +11,7 @@ Primary stack is **Python/Django** — also proficient in **Node.js/Express** fo
 ## 🚀 Live Products
 
 ### [FGP Hiring Signal](https://fgpsolutions.co) — AI-Native Hiring Tool
+
 An AI-native hiring tool that extracts structured, cited hiring signals from job descriptions and candidate materials — with a human-in-the-loop review queue before any decision is acted on.
 
 - 6-step AI reasoning chain (signals → strengths → risks → counter-hypotheses → follow-up questions → synthesis)
@@ -19,11 +20,15 @@ An AI-native hiring tool that extracts structured, cited hiring signals from job
 - **Stack:** Django Ninja · Anthropic Claude API · Redis/RQ · PostgreSQL · HTMX · TailwindCSS
 
 ### [LiveHomeTour](https://livehometour.com) — Real Estate Video Tour Platform
+
 A real estate platform enabling live agent-guided property video tours with agent-controlled playback, real-time client chat, and automated agent assignment by proximity.
+
+**[Live product](https://livehometour.com) · [API reference](https://livehometour-api.onrender.com/docs/) · [Backend source](https://github.com/techyfave/livehometour-api)**
 
 - Multi-role auth (CLIENT / AGENT / ADMIN) · tour booking & assignment engine · VideoAsset state machine
 - AI-powered property search with voice support (OpenAI + SimplyRETS/MLS data cache)
 - Real-time agent-to-client sessions via Cloudflare Stream + Daily.co
+- Public read-only OpenAPI documentation for reviewing the production API contract
 - **Stack:** Node.js/Express · PostgreSQL (Prisma) · Socket.io · Cloudflare Stream · Cloudflare R2 · Daily.co · Next.js
 
 ---
