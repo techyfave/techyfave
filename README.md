@@ -70,7 +70,7 @@ Previously mentored a developer cohort under the **Ekiti State Government Partne
 
 ## 🤝 Connect
 
-- 🌐 [fgpsolutions.co](https://fgpsolutions.io)
+- 🌐 [fgpsolutions.io](https://fgpsolutions.io)
 - 💼 [linkedin.com/in/favour-ronald-enu](https://www.linkedin.com/in/favour-ronald-enu)
 - 📧 favourronenu@gmail.com
 
