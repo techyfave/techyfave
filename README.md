@@ -10,9 +10,22 @@ Primary stack is **Python/Django** — also proficient in **Node.js/Express** fo
 
 ## 🌱 Currently Building
 
-### [AgroLens AI](https://github.com/techyfave/AgroLens-AI) — AI-Powered Crop Intelligence
+### [AgroLens AI](https://agrolensai.onrender.com/docs) — AI-Powered Crop Disease Screening · *Project Lead*
 
-Building an end-to-end platform that turns crop imagery into practical health insights. It brings together applied AI, product engineering, and production-ready delivery—more to come as development progresses.
+A platform that helps smallholder farmers spot crop-leaf diseases from a phone photo and act on the result safely. AgroLens is a team project with three teams (Mobile, ML/Model, and Backend). I lead the project and drove most of the backend engineering, working alongside the backend team.
+
+**Status:** backend complete and live on staging · mobile app and production model in progress with the Mobile and ML teams.
+
+**[Public API docs](https://agrolensai.onrender.com/docs)** · source in a private team repository
+
+- Guest-first: anyone can scan without an account, and saved history moves into the account on sign-up
+- AI photo check (Gemini vision) rejects non-plants, screenshots, artificial leaves, and unsupported crops before disease inference, and falls back gracefully if the provider fails, with a daily cost cap and a runtime kill switch
+- Grounded farming assistant that answers only from reviewed agronomy content, cites its sources, and refuses chemical dosing
+- Privacy by design: auditable consent ledger, EXIF-stripped image donations in private R2 storage, data export and deletion, anonymous analytics
+- Security: Argon2id, rotating refresh tokens with reuse detection, per-account lockout, a written threat model, and dependency auditing in CI
+- Operations: Prometheus metrics, Discord alerts by severity, incident runbooks with a rehearsed outage drill, and a rehearsed backup restore
+- 260+ automated tests · Alembic migrations · Docker · CI on every pull request
+- **Stack:** FastAPI · SQLAlchemy · PostgreSQL · Google Gemini · Cloudflare R2 · Resend · Docker · Render · GitHub Actions
 
 ---
 
