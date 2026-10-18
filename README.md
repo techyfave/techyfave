@@ -1,8 +1,8 @@
 # Hi, I'm Favour 👋
 
-**Backend Engineer · Full Stack Developer · Technical Co-Founder**
+**AI Engineer · AI Agent Builder · Backend Engineer · Full Stack Developer · Technical Co-Founder**
 
-I build production-grade APIs, distributed systems, and AI-native web applications. Co-founded [FGP Solutions](https://fgpsolutions.co) in 2026, where I serve as Lead Backend Developer and Technical Architect across multiple product lines.
+I build AI agents and LLM-powered products, and the production-grade APIs and systems behind them. Co-founded [FGP Solutions](https://fgpsolutions.co) in 2026, where I serve as Lead Backend Developer and Technical Architect across multiple product lines.
 
 Primary stack is **Python/Django** — also proficient in **Node.js/Express** for full stack delivery. I integrate LLMs (Anthropic Claude, OpenAI) as core product features, not just tooling.
 
@@ -17,6 +17,19 @@ Building an end-to-end platform that turns crop imagery into practical health in
 ---
 
 ## 🚀 Selected Work
+
+### [Épreuve](https://epreuve.site) — Job-Readiness Assessment & Certification Platform
+
+A live platform where candidates take timed, server-enforced assessments across 10 skill areas (cognitive, technical, coding and workplace), get AI grading and coaching, and earn proctored certificates that employers can verify.
+
+**[Try it live](https://epreuve.site) · [Public API docs](https://epreuve.site/api/docs) · [View source](https://github.com/techyfave/epreuve)**
+
+- AI coach: one structured LLM call per attempt grades written answers against a hiring rubric and builds a study plan, with provider fallback (OpenRouter → Gemini → Ollama) so every attempt is still scored if a model is down
+- Sandboxed Python code runner (scrubbed environment, audit hooks, resource limits) scoring hidden tests with partial credit
+- Proctored certification: integrity signals (tab switches, full-screen exits, second screens, pasting) become a risk level; high-risk attempts go to a human review queue; certificates verify publicly by code
+- Company assessment invites, admin dashboard, Paystack payments verified server-side with signed webhooks, email confirmation codes
+- 200+ automated tests on SQLite and PostgreSQL · Alembic migrations · public and admin-only API docs
+- **Stack:** FastAPI · SQLAlchemy · PostgreSQL (Neon) · React + TypeScript · Gemini / OpenRouter · Paystack · Resend · Render
 
 ### [FGP Hiring Signal](https://fgpsolutions.co) — AI-Native Hiring Tool
 
@@ -44,10 +57,10 @@ A real estate platform enabling live agent-guided property video tours with agen
 ## 🛠 Tech Stack
 
 **Backend**
-Python · Django · Django REST Framework · Django Ninja · Node.js · Express.js · WebSockets (Django Channels · Socket.io)
+Python · FastAPI · Django · Django REST Framework · Django Ninja · Node.js · Express.js · WebSockets (Django Channels · Socket.io)
 
 **AI & LLMs**
-Anthropic Claude API · OpenAI API · Prompt Engineering · Structured Output Validation · LLM Workflow Design
+AI Agents · Anthropic Claude API · OpenAI API · Google Gemini · OpenRouter · Prompt Engineering · Structured Output Validation · LLM Workflow Design · Multi-Provider Fallback
 
 **Databases**
 PostgreSQL · MySQL · Redis · Prisma ORM
@@ -74,4 +87,4 @@ Previously mentored a developer cohort under the **Ekiti State Government Partne
 - 💼 [linkedin.com/in/favour-ronald-enu](https://www.linkedin.com/in/favour-ronald-enu)
 - 📧 favourronenu@gmail.com
 
-Open to full-time remote backend engineering roles.
+Open to full-time remote AI engineering and backend engineering roles.
